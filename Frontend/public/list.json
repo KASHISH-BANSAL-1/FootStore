@@ -1,0 +1,96 @@
+[
+    {
+        "id":1,
+        "name": "Shoes",
+        "price": "1700",
+        "desc": "Open-toed footwear designed for warm weather",
+        "img": "https://images.unsplash.com/flagged/photo-1556637640-2c80d3201be8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGZvb3R3ZWFyfGVufDB8fDB8fHww",
+        "category": "Best Seller"
+    },
+    {
+        "id":2,
+        "name": "Boots",
+        "price": "1950",
+        "desc": "Stylish and durable footwear offering protection",
+        "img": "https://images.unsplash.com/photo-1554133818-7bb790d55236?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGJvb3RzfGVufDB8fDB8fHww",
+        "category": "Best Seller"
+    },
+    {
+        "id":3,
+        "name": "Hign Heels",
+        "price": "1800",
+        "desc": "Elevate your style with this classic footwear ",
+        "img": "https://images.unsplash.com/photo-1618274158630-bc47a614b3a5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGhpZ2glMjBoZWVsfGVufDB8fDB8fHww",
+        "category": "Frequent"
+    }, {
+        "id":4,
+        "name": "Slippers",
+        "price": "900",
+        "desc": "Open-toed footwear designed for warm weather",
+        "img": "https://www.shape.com/thmb/bfjU8ggQMuHPvjO29B_l97AOPjo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Sollbeam-Fuzzy-House-Slippers-9423fb126b2b4948936724dd9e061311.jpg",
+        "category": "Best Seller"
+    },
+    {
+        "id":5,
+        "name": "Boots",
+        "price": "2200",
+        "desc": "Stylish and durable footwear offering protection",
+        "img": "https://media.istockphoto.com/id/1190007041/photo/modern-womens-ankle-boots-rich-red-brown-color-isolated-on-a-white-background.jpg?s=1024x1024&w=is&k=20&c=fhhA7KNQcEKfz4uL3P_22s6EOEJAnx1SwrjBIg0SkKw=",
+        "category": "Frequent"
+    },
+    {
+        "id":6,
+        "name": "Hign Heels",
+        "price": "1500",
+        "desc": "Elevate your style with this classic footwear",
+        "img": "https://images.unsplash.com/photo-1535043934128-cf0b28d52f95?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGhpZ2glMjBoZWVsc3xlbnwwfHwwfHx8MA%3D%3D",
+        "category": "Best Seller"
+    }, {
+        "id":7,
+        "name": "Sneakers",
+        "price": "1400",
+        "desc": " Comfortable and versatile footwear",
+        "img": "https://images.unsplash.com/photo-1514989940723-e8e51635b782?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHNuZWFrZXJzfGVufDB8fDB8fHww",
+        "category": "Frequent"
+    },
+    {
+        "id":8,
+        "name": "Slippers",
+        "price": "600",
+        "desc": "Open-toed footwear designed for warm weather",
+        "img": "https://media.istockphoto.com/id/913847522/photo/a-pair-of-suede-slippers.jpg?s=1024x1024&w=is&k=20&c=CFJrg1M969B7WAzKkY6ELaLMUTB2PtZ-6PheVZvNTyU=",
+        "category": "Frequent"
+    },
+    {
+        "id":9,
+        "name": "Hign Heels",
+        "price": "1500",
+        "desc": "Elevate your style with this classic footwear",
+        "img": "https://media.istockphoto.com/id/1164989573/photo/woman-wearing-yellow-heels.jpg?s=1024x1024&w=is&k=20&c=poYLzANwn0MmITKPUaXS_hfv7RPNlbwgCOdd2vv2zzU=",
+        "category": "Frequent"
+    }, {
+        "id":10,
+        "name": "Sneakers",
+        "price": "1200",
+        "desc": " Comfortable and versatile footwear ",
+        "img": "https://images.unsplash.com/photo-1552346154-21d32810aba3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c25lYWtlcnN8ZW58MHx8MHx8fDA%3D",
+        "category": "Best Seller"
+    },
+    {
+        "id":11,
+        "name": "Boots",
+        "price": "2000",
+        "desc": "Stylish and durable footwear offering protection",
+        "img": "https://images.unsplash.com/photo-1601924638867-3a6de6b7a500?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "category": "Frequent"
+    },
+    {
+        "id":12,
+        "name": "Slippers",
+        "price": "400",
+        "desc": "Open-toed footwear designed for warm weather",
+        "img": "https://media.istockphoto.com/id/2030289159/photo/front-view-of-colorful-flip-flops.jpg?s=2048x2048&w=is&k=20&c=kud3pe326IOOW0eadx6qwyE1s9y7_4yQZvi6gzQDmD4=",
+        "category": "Frequent"
+    }
+    
+]
