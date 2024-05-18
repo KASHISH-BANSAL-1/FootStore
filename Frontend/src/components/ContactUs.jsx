@@ -2,7 +2,7 @@ import React from 'react';
 
 function ContactUs() {
     return (
-        <div className=' mt-40 items-center justify-center  flex flex-col'>
+        <div className='mt-40 items-center justify-center  flex flex-col'>
             <h1 className='font-bold text-2xl'>Contact Us</h1>
             <div className='mt-4 space-y-2'>
                 <span>Name</span> <br />

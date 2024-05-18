@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Login from './Login'
+import axios from 'axios'
 import { useForm } from "react-hook-form"
 function SignUp() {
     const {
@@ -9,7 +10,25 @@ function SignUp() {
         formState: { errors },
       } = useForm()
     
-      const onSubmit = (data) => console.log(data)
+      const onSubmit = async(data) => {
+        const userInfo = {
+            fullname : data.fullname,
+            email: data.email,
+            password: data.password
+        } 
+        await axios.post("http://localhost:4000/signup", userInfo)
+        .then((res)=>{
+            console.log(res.data)
+            if(res.data){
+                alert("Signup Successfully")
+            }
+            localStorage.setItem("Users",JSON.stringify( res.data.user))
+        })
+        .catch((err)=>{
+            console.log(err);
+            alert(err.response.data.msg)
+        })
+      }
     return (
         <>
             <div className='flex h-screen items-center justify-center '> 
@@ -25,8 +44,8 @@ function SignUp() {
                     <div className='mt-4 space-y-2'>
                         <span>Name</span> <br />
                         <input type="text" placeholder='Enter your Name' className='w-80 px-3 py-1 border rounded-md outline-none' 
-                        {...register("name", { required: true })} />
-                        {errors.name && <span className='text-red-500 text-sm'>This field is required</span>}
+                        {...register("fullname", { required: true })} />
+                        {errors.fullname && <span className='text-red-500 text-sm'>This field is required</span>}
 
                     </div>
                     <div className='mt-4 space-y-2'>

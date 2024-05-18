@@ -1,15 +1,27 @@
-import React from 'react'
-import list from "../../public/list.json"
-
-import "slick-carousel/slick/slick.css";
+import React, { useEffect, useState } from 'react'
+ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import axios from 'axios'
 
 import Slider from "react-slick";
 import Card from './Card';
 
 function Featured() {
-  const filterData = list.filter((data) => data.category === "Best Seller")
-  // console.log(filterData)
+  const [shoe,setShoe]= useState([]);
+    useEffect(()=>{
+        const getShoe = async()=>{
+            try {
+               const res = await axios.get("http://localhost:4000/shoe")
+               console.log(res.data)
+               const data = res.data.filter((data) => data.category === "Best Seller")
+               setShoe(data)
+            } catch (error) {
+                console.log(error)
+            }
+        }
+        getShoe();
+    },[])
+
 
   var settings = {
     dots: true,
@@ -55,7 +67,7 @@ function Featured() {
 
         <div >
           <Slider {...settings}>
-            {filterData.map((item)=>(
+            {shoe.map((item)=>(
               <Card item ={item} key={item.id}/>
             ))}
           </Slider>
